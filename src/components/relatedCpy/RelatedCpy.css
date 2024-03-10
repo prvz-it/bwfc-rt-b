@@ -1,0 +1,38 @@
+#relatedCpy {
+    margin: 80px 0px;
+}
+
+.relatedCpyText p {
+    margin-bottom: 36px;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .relatedCpyLogo img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #relatedCpy {
+        margin: 320px 0px 80px;
+    }
+
+    .relatedCpyText p {
+        font-size: 18px;
+    }
+
+    .relatedCpyLogo img {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 575px) {
+    #relatedCpy {
+        margin: 270px 0px 80px;
+    }
+}

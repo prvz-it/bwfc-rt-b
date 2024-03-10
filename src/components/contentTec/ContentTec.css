@@ -1,0 +1,153 @@
+#contentTec {
+    margin: 80px 0px;
+    background: url(../../assets/ContentGp.png) no-repeat;
+}
+
+.contentTecInner {
+    height: 75vh;
+}
+
+.contentTecLeft h5 {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #3734A9;
+}
+
+.contentTecLeft h2 {
+    margin: 24px 0px;
+    font-family: "Manrope", sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -3px;
+    color: #000;
+}
+
+.contentTecLeft p {
+    font-family: "Manrope", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -1px;
+    color: #757095;
+}
+
+.contentTec_button a {
+    width: 160px;
+    height: 48px;
+    margin-top: 28px;
+    border: none;
+    border-radius: 12px;
+    background: #3734A9;
+    text-align: center;
+    line-height: 48px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.contentTecRight {
+    position: relative;
+}
+
+.contentTecRight img {
+    width: 100%;
+}
+
+.contentTec_Img1 {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+}
+
+.contentTec_Img1 img {
+    width: 80px;
+}
+
+.contentTec_Img2 {
+    position: absolute;
+    bottom: -40px;
+    right: -20px;
+}
+
+.contentTec_Img2 img {
+    width: 370px;
+}
+
+@media (max-width:991px) {
+    .contentTecInner {
+        height: 100vh;
+    }
+
+    .contentTecLeft h2 {
+        margin: 16px 0px;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -2px;
+    }
+
+    .contentTec_button a {
+        margin-bottom: 14px;
+    }
+
+    .contentTec_Img1 {
+        position: absolute;
+        top: -5%;
+        right: 15%;
+    }
+
+    .contentTec_Img2 {
+        position: absolute;
+        bottom: -60px;
+        right: -52px;
+    }
+
+    .contentTec_Img2 img {
+        width: 300px;
+    }
+}
+
+@media (max-width:767px) {
+    #contentTec {
+        text-align: center;
+        margin: 80px 0px 340px;
+    }
+
+    .contentTecLeft h2 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+
+    .contentTecLeft p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .contentTec_Img1 {
+        position: absolute;
+        top: 3%;
+        right: 20%;
+    }
+
+    .contentTec_Img2 {
+        position: absolute;
+        bottom: -40px;
+        right: -20px;
+    }
+
+    .contentTec_Img2 img {
+        width: 370px;
+    }
+}
+
+@media (max-width:575px) {
+    .contentTec_Img2 {
+        position: absolute;
+        bottom: -40px;
+        right: -10px;
+    }
+}

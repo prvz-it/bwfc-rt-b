@@ -1,0 +1,145 @@
+#register {
+    margin-top: 36px;
+    position: relative;
+}
+
+.registerIcon {
+    position: absolute;
+    top: -24px;
+    right: 105px;
+}
+
+.registerInner {
+    padding: 70px 60px;
+    border-radius: 20px;
+    background: #F3F7FA;
+}
+
+.registerLeft h5 {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #3734A9;
+}
+
+.registerLeft h2 {
+    margin: 18px 0px 30px;
+    font-family: "Manrope", sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -2px;
+    color: #000;
+}
+
+.registerLeft p {
+    font-family: "Manrope", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #757095;
+}
+
+.registerRight h4 {
+    margin-bottom: 22px;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #3734A9;
+}
+
+.registerRight input {
+    width: 370px;
+    height: 60px;
+    margin: 12px 0px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.registerRight input::placeholder {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #64607D;
+}
+
+.register_button a {
+    width: 370px;
+    height: 60px;
+    margin: 12px 0px;
+    border: none;
+    border-radius: 5px;
+    background: #FF7F5C;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+@media (max-width:991px) {
+    .registerIcon {
+        right: 86px;
+    }
+
+    .registerInner {
+        padding: 48px 28px;
+    }
+
+    .registerLeft h2 {
+        margin: 10px 0px 16px;
+        font-size: 38px;
+        line-height: 48px;
+    }   
+
+    .registerLeft p {
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: -0.14px;
+    }
+
+    .registerRight input {
+        width: 310px;
+    }
+
+    .register_button a {
+        width: 310px;
+    }
+}
+
+@media (max-width:767px) {
+    #register {
+        margin-top: 332px;
+    }
+
+    .registerIcon {
+        right: 48px;
+    }
+
+    .registerLeft {
+        text-align: center;
+    }
+
+    .registerLeft h2 {
+        font-size: 40px;
+    }
+
+    .registerLeft p {
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+
+    .registerRight {
+        text-align: center;
+        margin-top: 32px;
+    }
+}

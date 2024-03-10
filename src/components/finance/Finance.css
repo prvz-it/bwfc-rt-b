@@ -1,0 +1,114 @@
+#finance {
+    margin: 60px 0px;
+    position: relative;
+}
+
+.financeImage {
+    position: absolute;
+    top: -7%;
+    left: 14%;
+}
+
+.financeMain {
+    padding: 40px 80px;
+    border-radius: 20px;
+    background: #F3F7FA;
+}
+
+.financeTop {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.financeTop h4 {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #3734A9;
+}
+
+.financeTop h2 {
+    margin-top: 14px;
+    font-family: "Manrope", sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -2px;
+    color: #000;
+}
+
+.financeBox {
+    margin-top: 24px;
+    padding: 52px 48px 36px 120px;
+    border-radius: 20px;
+    background: #FFF;
+    position: relative;
+}
+
+.financeIcon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #F7ECFD;
+    position: absolute;
+    top: 26%;
+    left: 7%;
+}
+
+.financeBox h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.financeBox p {
+    margin-top: 12px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #757095;
+}
+
+@media (max-width:991px) {
+    .financeImage {
+        top: -5%;
+    }
+
+    .financeBox {
+        padding: 44px 50px 36px 130px;
+    }
+
+    .financeBox p {
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width:767px) {
+    .financeBox {
+        padding: 42px 30px 36px 90px;
+    }
+
+    .financeBox p {
+        margin-top: 8px;
+    }
+
+    .financeIcon {
+        top: 20%;
+        left: 6%;
+    }
+}
+@media (max-width:575px) {
+    .financeBox {
+        padding: 42px 30px 36px 86px;
+    }
+
+    .financeIcon {
+        top: 18%;
+        left: 5%;
+    }
+}

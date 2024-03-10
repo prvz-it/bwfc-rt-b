@@ -1,0 +1,101 @@
+#footerCta {
+    margin-top: 100px;
+    padding: 60px 0px;
+    background: #3734A9;
+}
+
+.footerLeft h5 {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.footerLeft h2 {
+    margin: 14px 0px 24px;
+    font-family: "Manrope", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -2px;
+    color: #FFF;
+}
+
+.footerLeft p {
+    font-family: "Manrope", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFF;
+}
+
+.footerRight input {
+    width: 370px;
+    height: 60px;
+    margin: 12px 0px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #f2f3f44d;
+}
+
+.footerRight input::placeholder {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #bbb5e099;
+}
+
+.footer_button a {
+    width: 370px;
+    height: 60px;
+    margin: 12px 0px;
+    border: none;
+    border-radius: 5px;
+    background: #FF7F5C;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+@media (max-width:991px) {
+    .footerLeft h2 {
+        margin: 10px 0px 16px;
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .footerLeft p {
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: -0.14px;
+    }
+}
+
+@media (max-width:767px) {
+    .footerLeft {
+        text-align: center;
+    }
+
+    .footerLeft h2 {
+        font-size: 40px;
+    }
+
+    .footerLeft p {
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+
+    .footerRight {
+        text-align: center;
+        margin-top: 24px;
+    }
+}
